@@ -1,0 +1,16 @@
+{
+  "name": "design-roast",
+  "owner": {
+    "name": "Ari Gunawan Jatmiko"
+  },
+  "plugins": [
+    {
+      "name": "design-roast",
+      "source": "./",
+      "description": "Brutal but constructive design roast with a 0-100 score: UI/UX flow, duplicate info, responsive, fonts, trend check, animation tips, for web, mobile, apps, images, and video."
+    }
+  ],
+  "metadata": {
+    "description": "Brutal but constructive design roast with a 0-100 score: UI/UX flow, duplicate info, responsive, fonts, trend check, animation tips, for web, mobile, apps, images, and video."
+  }
+}

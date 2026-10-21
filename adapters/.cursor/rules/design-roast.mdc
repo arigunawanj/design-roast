@@ -1,0 +1,5 @@
+---
+description: Brutal but constructive design roast with a 0-100 score (UI/UX, image, video)
+alwaysApply: false
+---
+When the user asks to roast, review, critique, audit, or score a design (UI/UX flow, fonts, responsive, duplicate info, animation, posters, banners, video), read `skills/design-roast/SKILL.md` and follow it. Trigger it selectively, not for every code edit. If a feature-specific rule attachment is supported, use it; otherwise attach this rule manually.
