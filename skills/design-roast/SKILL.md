@@ -1,6 +1,6 @@
 ---
 name: design-roast
-description: Roasting desain secara brutal tapi membangun, lengkap dengan skor 0-100. Dipakai saat user minta roast, review, kritik, audit, atau nilai desain UI/UX (web, mobile, desktop app, dashboard), gambar (poster, banner, feed, thumbnail, logo), atau video/motion. Cek hierarki visual, font, warna, flow UX, informasi dobel, responsive, kekinian vs usang, animasi, lalu kasih solusi konkret.
+description: Roasting desain secara brutal tapi membangun, lengkap dengan skor 0-100. Dipakai saat user minta roast, review, kritik, audit, atau nilai desain UI/UX (web, mobile, desktop app, dashboard), gambar (poster, banner, feed, thumbnail, logo), atau video/motion. Cek hierarki visual, font, warna, flow UX, informasi dobel, responsive, kekinian vs usang, animasi, lalu kasih solusi konkret. Untuk desain edukatif (e-learning, tutorial, slide, infografis, onboarding, video explainer) ada modul tambahan 12 prinsip pembelajaran multimedia Mayer dengan skor tersendiri.
 ---
 
 # Design Roast
@@ -29,10 +29,13 @@ Bahasa default: Indonesia santai ala Gen Z (boleh "gue/lo" atau "aku/kamu", ikut
 ### 2. Tentukan konteks (jangan banyak tanya)
 Cari tahu: target pengguna, platform, tujuan utama halaman/desain (jual, daftar, edukasi, branding). Kalau user tidak kasih, **asumsikan yang paling masuk akal, tulis asumsinya di awal laporan, lalu lanjut**. Maksimal satu pertanyaan, hanya jika tanpa jawabannya hasil roast bisa meleset total.
 
+Tentukan juga: **apakah desain ini bertujuan mengajar atau menjelaskan sesuatu?** Kalau ya (e-learning, tutorial, slide, infografis, onboarding, dokumentasi, video explainer, konten edukasi di Reels/TikTok), aktifkan **Modul Prinsip Pembelajaran Multimedia (Mayer)** di bawah, selain rubrik biasa.
+
 ### 3. Riset tren terkini
 Kekinian itu bergerak cepat. Sebelum menilai skor "Kekinian", lakukan web search singkat untuk tren desain tahun berjalan sesuai jenis desain (misal "web design trends [tahun]", "mobile app UI trends [tahun]", "motion design trends [tahun]"). Jangan mengandalkan ingatan lama. Gunakan hasilnya sebagai pembanding, jangan menyalin mentah.
 
 ### 4. Audit per kategori, lalu skor, lalu tulis laporan.
+Pilih rubrik sesuai jenis desain (UI, gambar, atau video). Kalau desainnya edukatif, jalankan juga Modul Mayer dan hitung skor akhirnya sesuai bagian "Cara Menghitung & Menafsirkan Skor".
 
 ## Rubrik Skor: UI Web / Mobile / App (total 100)
 
@@ -139,9 +142,52 @@ Tambahan: cek keterbacaan di ukuran kecil (thumbnail), info dobel di dalam satu 
 
 Sebutkan timestamp untuk setiap temuan. Kalau audio tidak bisa dicek, tulis "audio tidak dinilai" dan hitung ulang skor secara proporsional.
 
+## Modul Tambahan: Prinsip Pembelajaran Multimedia (Mayer)
+
+Lensa tambahan untuk desain yang tujuannya **mengajar atau menjelaskan**. Dasarnya 12 prinsip Mayer yang banyak digunakan. Analogi: rubrik biasa menilai apakah restorannya enak dan nyaman; modul ini menilai apakah resepnya bisa diikuti orang yang baru belajar masak.
+
+**Kapan aktif**
+- Otomatis untuk: platform kursus/e-learning, video tutorial atau explainer, slide presentasi, infografis, onboarding produk, dokumentasi/panduan, konten edukasi di Reels/TikTok/Shorts.
+- Atau kalau user menyebut "prinsip Mayer", "multimedia learning", atau "desain pembelajaran".
+- Desain murni jualan atau branding tanpa bagian penjelas: lewati dan tulis "modul Mayer tidak relevan". Kalau hanya sebagian yang edukatif (misal bagian "cara kerja" di landing page), nilai bagian itu saja dan sebutkan batasnya.
+
+**Catatan jujur:** ini kerangka heuristik berbasis riset, bukan alat ukur hasil belajar. Jangan mengklaim sebuah desain "terbukti meningkatkan pemahaman" tanpa data. Literatur Mayer yang lebih baru juga membahas *embodiment* dan *generative activity*; boleh disebut sebagai saran tambahan, tidak masuk skor.
+
+| # | Prinsip | Pertanyaan audit | Tanda masalah | Solusi khas |
+|---|---------|------------------|---------------|-------------|
+| 1 | Coherence: hilangkan elemen dekoratif yang tidak mendukung pembelajaran | Apakah setiap ikon, foto, musik, latar, dan animasi membantu memahami materi? | Stock photo hiasan, musik ramai di bawah penjelasan, latar bergerak, animasi yang cuma pamer | Hapus atau netralkan yang tidak menjelaskan; sisakan yang memperjelas |
+| 2 | Signaling: beri petunjuk visual untuk informasi penting | Apakah mata penonton dituntun ke poin kunci? | Semua teks sama besar dan sama warna, tidak ada penanda, penjelasan "yang ini" tanpa menunjuk apa pun | Tebal atau warna aksen untuk kata kunci, highlight/panah/lingkaran tepat saat disebut, heading yang jelas |
+| 3 | Redundancy: hindari pengulangan teks, narasi, dan visual yang membebani | Apakah narasi dibacakan persis sama dengan teks padat di layar? | Slide penuh paragraf yang dibaca ulang, teks layar dan narasi identik, info yang sama di dua tempat | Teks layar cukup kata kunci; kalimat lengkap lewat narasi |
+| 4 | Spatial Contiguity: letakkan teks dekat dengan gambar yang dijelaskan | Apakah label menempel pada bagian gambar yang dimaksud? | Legenda terpisah dari diagram, keterangan di bawah halaman, mata harus bolak-balik | Label langsung di elemen atau callout dengan garis penunjuk |
+| 5 | Temporal Contiguity: sinkronkan narasi dengan animasi atau visual terkait | Apakah visual muncul tepat saat dijelaskan? | Visual muncul sebelum atau sesudah dibahas, teks telat beberapa detik | Selaraskan kemunculan visual dengan kalimat yang menjelaskannya |
+| 6 | Segmenting: pecah informasi rumit menjadi bagian kecil | Apakah materi rumit dibagi dan penonton punya ruang bernapas? | Satu layar atau satu video panjang tanpa jeda, banyak tahap digabung, tidak ada kontrol lanjut | Bagi per langkah atau bab, satu ide per layar atau per beat, beri jeda dan tombol lanjut |
+| 7 | Pre-training: perkenalkan istilah atau konsep dasar sebelum materi kompleks | Apakah istilah baru dijelaskan sebelum dipakai? | Jargon langsung dipakai tanpa definisi, asumsi penonton sudah paham | Pengantar singkat, glosarium, atau kenalkan komponen sebelum menjelaskan prosesnya |
+| 8 | Modality: pertimbangkan narasi suara untuk menjelaskan visual kompleks | Untuk diagram atau animasi rumit, apakah penjelasannya lewat suara atau tertumpuk teks? | Diagram rumit ditambah paragraf padat sehingga mata bekerja ganda | Pindahkan penjelasan ke narasi dan biarkan visual fokus; kalau tanpa audio, pecah teks jadi pendek. Narasi tidak selalu lebih baik di konteks tanpa suara |
+| 9 | Multimedia: kombinasikan teks dan visual yang relevan, bukan hanya teks | Apakah ada visual yang benar-benar menjelaskan, bukan sekadar menghias? | Dinding teks tanpa diagram, atau gambar yang tidak berhubungan dengan isi | Tambah diagram, alur, atau contoh visual yang relevan |
+| 10 | Personalization: gunakan bahasa yang natural dan komunikatif | Apakah bahasanya terasa seperti ngobrol dengan penonton? | Kalimat pasif kaku, jargon birokratis, nada seperti dokumen hukum | Sapa langsung ("kamu"), kalimat aktif dan pendek; tetap sesuaikan dengan karakter brand |
+| 11 | Voice: gunakan suara narasi manusia yang nyaman didengar | Apakah suara jernih, ritmenya enak, dan volumenya stabil? | Suara robotik atau monoton, noise, gema, volume naik turun | Rekam suara manusia yang jernih dengan jeda yang wajar; kalau memakai TTS, pilih yang natural dan sebutkan penggunaannya |
+| 12 | Image: menampilkan wajah pembicara tidak otomatis meningkatkan pemahaman | Apakah wajah pembicara perlu tampil saat visual penting sedang dijelaskan? | Wajah memenuhi layar ketika diagram atau contoh butuh perhatian penonton | Tampilkan wajah di pengantar dan bagian emosional, kecilkan atau sembunyikan saat menjelaskan visual. Untuk personal branding atau hook Reels, wajah punya fungsi lain (kepercayaan, kedekatan), jadi nilai sebagai trade-off, jangan otomatis salah |
+
+**Catatan penerapan yang sering keliru**
+- **Redundancy vs subtitle sosmed:** subtitle yang menyalin narasi memang bisa membebani, tetapi sering dibenarkan karena banyak penonton menonton tanpa suara dan untuk aksesibilitas. Tandai sebagai trade-off, jangan otomatis dikurangi. Yang dikritik adalah teks layar padat yang ikut dibacakan.
+- **Jangan menghitung ganda:** temuan yang sama dengan kategori "Informasi dobel" (misal teks yang muncul dua kali) cukup disebut satu kali lengkap, lalu diberi referensi silang di kategori lain.
+- **N/A itu wajar:** Voice, Modality, dan Temporal Contiguity tidak bisa dinilai untuk gambar statis tanpa audio. Tulis "tidak dinilai", jangan ditebak.
+
+**Cara menskor Modul Mayer**
+- Beri tiap prinsip skor 0-10:
+  - 0-2: dilanggar dan jelas menghalangi pemahaman
+  - 3-4: sering dilanggar
+  - 5-6: sebagian diterapkan, celahnya terlihat
+  - 7-8: diterapkan dengan celah kecil
+  - 9-10: konsisten dan terlihat jelas penerapannya (langka)
+- Prinsip yang tidak bisa dinilai ditandai **N/A** dan dikeluarkan dari hitungan.
+- **Skor Pembelajaran /100** = rata-rata skor prinsip yang dinilai x 10, dibulatkan. Kalau lebih dari 40% prinsip N/A, beri label **"Sementara"**.
+- Untuk tiap prinsip yang skornya 7 atau kurang, tulis: bukti (lokasi atau timestamp), kenapa mengganggu belajar, dan solusi konkret. Prinsip yang skornya di atas 7 cukup satu baris.
+
 ## Cara Menghitung & Menafsirkan Skor
 
 - Skor akhir = jumlah skor kategori. Kalau ada kategori yang tidak dinilai, skala ulang ke 100 dan tulis catatannya.
+- **Desain edukatif (Modul Mayer aktif):** skor rubrik biasa tetap dihitung seperti di atas (**Skor Desain**), Modul Mayer menghasilkan **Skor Pembelajaran**, lalu **Skor akhir = 70% Skor Desain + 30% Skor Pembelajaran**, dibulatkan. Tampilkan ketiganya beserta hitungannya. Bobot 70/30 adalah default; kalau user minta bobot lain (misal materi belajar lebih penting), ikuti dan tulis bobotnya. Pengurang otomatis di bawah tetap berlaku pada skor akhir.
 - **Pengurang otomatis (cap)**: kalau ada masalah fatal, skor akhir dibatasi walau kategori lain bagus. Contoh: kontras gagal di teks utama atau CTA (maks 75), halaman rusak/horizontal scroll parah di mobile (maks 70), alur utama buntu atau tidak bisa diselesaikan (maks 60).
 - Penafsiran:
   - 90-100: Siap tampil, level studio.
@@ -158,6 +204,7 @@ Gunakan struktur ini:
 ```
 # Roast: [Nama/Jenis Desain]
 **Skor akhir: XX/100 — [label]**
+(Desain edukatif: tulis juga Skor Desain dan Skor Pembelajaran)
 Asumsi konteks: [target user, platform, tujuan, bagian yang tidak bisa dinilai]
 
 ## Kesan 3 Detik Pertama
@@ -177,6 +224,13 @@ Asumsi konteks: [target user, platform, tujuan, bagian yang tidak bisa dinilai]
 
 ## Informasi Dobel yang Ketemu
 [daftar lokasi + keputusan hapus/gabung/pindah]
+
+## Audit Prinsip Pembelajaran (Mayer): hanya untuk desain edukatif
+**Skor Pembelajaran: XX/100** (N/A: ... ; label "Sementara" bila perlu)
+| Prinsip | Skor | Catatan singkat |
+|---|---|---|
+(12 baris; untuk skor 7 atau kurang: Masalah -> Kenapa mengganggu belajar -> Solusi, lengkap dengan lokasi/timestamp)
+Hitungan skor akhir: 70% x Skor Desain + 30% x Skor Pembelajaran = XX
 
 ## Saran Font
 [font saat ini -> rekomendasi + pairing + alasan]

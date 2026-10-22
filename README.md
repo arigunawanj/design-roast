@@ -4,6 +4,8 @@ Brutal but constructive design roast with a 0-100 score, in Indonesian Gen Z voi
 
 Covers **UI/UX** (web, mobile, desktop app, dashboard), **static images** (poster, banner, feed, thumbnail, logo), and **video / motion**, each with its own scoring rubric.
 
+For **educational designs** (e-learning, tutorials, slides, infographics, onboarding, explainer videos, educational Reels) there is an extra module based on the 12 **Mayer multimedia learning principles** (coherence, signaling, redundancy, spatial and temporal contiguity, segmenting, pre-training, modality, multimedia, personalization, voice, image), scored separately as a Learning Score.
+
 Portable agent skill (`SKILL.md` standard). Works in **Claude Code, Codex, Gemini CLI, Antigravity, Cursor, GitHub Copilot, Windsurf, ChatGPT Projects**, and any agent that can read a markdown instruction file.
 
 ## Install
@@ -59,7 +61,7 @@ You can also attach a screenshot, a poster, or a video and ask for a roast. For 
 
 ## What you get
 
-Final score out of 100 with a label, a scoreboard per category, roasts with specific location + reason + fix, a list of duplicated information, font recommendations with pairings, animation suggestions (element, duration, easing, trigger, library), prioritized fixes (quick win / medium / big), and a predicted score after the fixes.
+Final score out of 100 with a label, a scoreboard per category, roasts with specific location + reason + fix, a list of duplicated information, font recommendations with pairings, animation suggestions (element, duration, easing, trigger, library), prioritized fixes (quick win / medium / big), and a predicted score after the fixes. For educational designs you also get a Learning Score /100 across the 12 Mayer principles, and the final score is 70% Design Score + 30% Learning Score (default weights, adjustable on request). Principles that cannot be judged (for example Voice on a still image) are marked N/A, not guessed.
 
 ## Notes
 

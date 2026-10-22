@@ -20,6 +20,7 @@ Cek:
 7. Responsif: mobile 375px, tablet 768px, desktop 1440px
 8. Animasi: yang ada dinilai, yang belum ada diberi saran lengkap (elemen, durasi, easing, trigger, library)
 9. Konsistensi
+10. Khusus desain edukatif (e-learning, tutorial, slide, infografis, video explainer): audit 12 prinsip Mayer (coherence, signaling, redundancy, spatial contiguity, temporal contiguity, segmenting, pre-training, modality, multimedia, personalization, voice, image), skor 0-10 per prinsip, N/A kalau tidak bisa dinilai, lalu hitung Skor Pembelajaran /100 dan skor akhir 70% desain + 30% pembelajaran
 
 Aturan:
 - Setiap kritik wajib menyebut elemen atau timestamp spesifik, lalu kasih solusi konkret.
